@@ -1,0 +1,16 @@
+{
+  "topic": "Python",
+  "summary": "A programming language.",
+  "flashcards": [
+    { "id": "fc-1", "question": "What is Python?", "answer": "A language." }
+  ],
+  "quiz": [
+    {
+      "id": "q-1",
+      "question": "What is Python used for?",
+      "options": ["Web", "Data", "Automation", "Gaming"],
+      "correctAnswer": 10,
+      "explanation": "Python is used for web development."
+    }
+  ]
+}

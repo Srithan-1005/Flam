@@ -1,0 +1,78 @@
+{
+  "topic": "Binary Search",
+  "summary": "Binary search is an efficient algorithm for finding an element in a sorted array. It works by repeatedly dividing the search interval in half, achieving O(log n) time complexity.",
+  "flashcards": [
+    {
+      "id": "fc-1",
+      "question": "What is the time complexity of binary search?",
+      "answer": "O(log n) — it halves the search space with each comparison."
+    },
+    {
+      "id": "fc-2",
+      "question": "What is the prerequisite for binary search to work?",
+      "answer": "The array must be sorted."
+    },
+    {
+      "id": "fc-3",
+      "question": "What is the space complexity of iterative binary search?",
+      "answer": "O(1) — it uses constant extra space."
+    },
+    {
+      "id": "fc-4",
+      "question": "What is the space complexity of recursive binary search?",
+      "answer": "O(log n) due to the recursion call stack."
+    },
+    {
+      "id": "fc-5",
+      "question": "What happens if binary search is applied to an unsorted array?",
+      "answer": "It may return incorrect results or fail to find an existing element."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1",
+      "question": "What is the time complexity of binary search?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "correctAnswer": 1,
+      "explanation": "Binary search divides the search space in half with each step, giving O(log n) time complexity."
+    },
+    {
+      "id": "q-2",
+      "question": "Which data structure is required for binary search?",
+      "options": ["Linked list", "Hash table", "Sorted array", "Stack"],
+      "correctAnswer": 2,
+      "explanation": "Binary search requires a sorted array to correctly divide the search interval."
+    },
+    {
+      "id": "q-3",
+      "question": "In binary search, what is compared at each step?",
+      "options": [
+        "The first element",
+        "The last element",
+        "The middle element",
+        "A random element"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Binary search compares the target with the middle element to decide which half to search next."
+    },
+    {
+      "id": "q-4",
+      "question": "What is the worst-case number of comparisons for binary search in an array of 1024 elements?",
+      "options": ["10", "11", "1024", "512"],
+      "correctAnswer": 1,
+      "explanation": "log2(1024) = 10, and in the worst case you need 11 comparisons (including the final check)."
+    },
+    {
+      "id": "q-5",
+      "question": "What does binary search return if the target is not found?",
+      "options": [
+        "The closest element",
+        "An indication that the element was not found",
+        "The first element",
+        "An error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the target is not found, binary search typically returns -1 or a 'not found' indicator."
+    }
+  ]
+}

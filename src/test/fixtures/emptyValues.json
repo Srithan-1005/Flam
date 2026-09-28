@@ -1,0 +1,16 @@
+{
+  "topic": "",
+  "summary": "",
+  "flashcards": [
+    { "id": "fc-1", "question": "", "answer": "" }
+  ],
+  "quiz": [
+    {
+      "id": "q-1",
+      "question": "",
+      "options": ["", "", "", ""],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ]
+}
